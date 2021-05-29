@@ -10,7 +10,15 @@ function App() {
           <Dictionary />
         </main>
         <footer className="text-center">
-          <small className="App-footer">Coded by Aino</small>
+          <small className="App-footer">
+            Coded by{" "}
+            <a
+              class="footer"
+              href="https://github.com/ainovi/dictionary-project"
+            >
+              Aino
+            </a>
+          </small>
         </footer>
       </div>
     </div>
