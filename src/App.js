@@ -1,5 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary.js";
+import logo from "./logo.svg";
 
 function App() {
   return (
@@ -7,13 +8,14 @@ function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary />
+          <img src={logo} className="App-logo" alt="logo" />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="text-center">
           <small className="App-footer">
             Coded by{" "}
             <a
-              class="footer"
+              className="footer"
               href="https://github.com/ainovi/dictionary-project"
             >
               Aino
